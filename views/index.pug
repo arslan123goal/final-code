@@ -1,0 +1,66 @@
+//- index.pug
+doctype html
+html
+  head
+    title Aarry Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul 
+            div#logo
+                img(src="/static/image/logo.png")
+                | ADA
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Contact us]
+    
+    section#introSection
+        div Welcome to Aarry's Dance Academy
+        //- div.small Eat Sleep Dance Repeat...
+        div.small "Dance is the hidden language of the soul"
+
+    section#missionSection
+        h2 Our Mission
+        div.card
+            h3 Dance, like you do
+            div.card-box
+                div.card-img
+                    img(src="/static/image/2.png")
+                div.card-content
+                    //- p This is the best dance academy in the world
+                    p Take more chances, dance more dances
+        div.card
+            h3 Dance perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/image/1.png")
+                div.card-content
+                    //- p This is the best dance academy in the world
+                    p If you stumble, make it part of the dance
+
+
+        div.card
+            h3 Expert teachings
+            div.card-box
+                div.card-img
+                    img(src="/static/image/3.png")
+                div.card-content
+                    //- p This is the best dance academy in the world
+                    p To watch us dance is to hear our heart speak.
+
+    section#sponsorsSection
+        h2 Our Sponsors
+        div#sponsers
+            img(src="/static/image/logo15.png", alt="Sponser Image", class="spImage")
+            img(src="/static/image/logo2.png", alt="Sponser Image", class="spImage")
+            img(src="/static/image/logo31.png", alt="Sponser Image", class="spImage")
+            img(src="/static/image/logo41.webp", alt="Sponser Image", class="spImage")
+    
+    footer#footer
+        | Copyright © 2019 AarryDanceAcademy.com | All rights reserved
+
+    script
+      include ../static/index.js

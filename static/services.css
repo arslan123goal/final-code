@@ -1,0 +1,118 @@
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+header,
+section{
+    margin-bottom: 30px;
+}
+
+h1,
+h2,
+h3 {
+    color: #2c3e50;
+    text-align: center;
+}
+
+p {
+    color:  rgb(97, 95, 27);
+    line-height: 1.6;
+    text-align: center;
+    padding: 10px 10px 50px 10px;
+    border-bottom: 2px solid #000;
+    font-size: 25px;
+    width: 50%;
+    margin: auto;
+}
+
+.programs-overview ul {
+    list-style-type: none;
+    line-height: 1.6;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    border-bottom: 2px solid #000;
+    font-size: 25px;
+    color:  rgb(97, 95, 27);
+}
+.programs-overview li:hover {
+    color:  rgb(19, 18, 1);
+}
+.program {
+    margin-bottom: 20px;
+}
+
+
+.instructor-profile img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-left: 42%;
+}
+.instructors{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.instructor-profile:nth-child(2) p {
+    border-bottom: none;
+}
+.instructor-profile:nth-child(3) p {
+    border-bottom: none;
+}
+
+h1:hover, h2:hover, h3:hover {
+    color: black;
+}
+p:hover {
+    color:  rgb(19, 18, 1);
+}
+
+header h1 {
+    animation: fadeInDown 1s;
+}
+
+h2 {
+    animation: fadeInRight 1s;
+}
+
+h3 {
+    animation: fadeInLeft 1s;
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

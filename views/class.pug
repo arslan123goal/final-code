@@ -1,0 +1,42 @@
+extends base.pug
+
+block style
+    style
+      include ../static/style.css
+      include ../static/class.css
+
+block content
+    .container
+      header
+        h1 Classes Time Table
+        p Updated class time Schedule will be displayed here
+      section.time-details
+        h2 Class Deatils
+        .time
+          h3 Ballet
+          p.up Schedule: Monday, 4:00-5:30 PM
+          p Instructors: Sarah Williams, James Anderson
+        .time
+          h3 Jazz
+          p.up Schedule: Tuesday, 4:00-5:30 PM
+          p Instructors: Maria Rodriguez, Harsh Sharma
+        .time
+          h3 Hip-Hop
+          p.up Schedule: Wednesday, 4:00-5:30 PM
+          p Instructors: Emma Lee, Michael Bennett
+        .time
+          h3 Contemporary
+          p.up Schedule: Thursday, 4:00-5:30 PM
+          p Instructors: Hitesh Choudhary, Ethan Thompson
+        .time
+          h3 Latin
+          p.up Schedule: Friday, 4:00-5:30 PM
+          p Instructors: Olivia Parker, Isabella Nguyen
+        .time
+          h3 Ballroom
+          p.up Schedule: Saturday, 4:00-5:30 PM
+          p Instructors: Daniel White, Chloe Adams
+
+      section.registration-info
+        h2 Registration Information
+        p To register for classes, please visit our registration page or contact us directly. Classes fill up quickly, so secure your spot today!

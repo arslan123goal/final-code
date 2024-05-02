@@ -1,0 +1,41 @@
+extends base.pug
+
+block style
+    style
+      include ../static/style.css
+      include ../static/about.css
+
+block content
+    .container
+      header
+        h1 About Us
+        p Welcome to Aarry Dance Academy! We have been nurturing dancers since 2019.
+      
+      section.introduction
+        h2 Our Story
+        p Our Dance Academy was founded in 2019 with the goal of fostering a love for dance in students of all ages. Our experienced instructors are dedicated to helping students develop their skills and confidence on the dance floor.
+      
+      section.instructors
+        h2 Our Instructors
+        .instructor-profile
+          img(src="/static/image/instructor1.jpg" alt="Instructor 1")
+          h3 Harsh Sharma
+          p Harsh Sharma is a professional dancer and instructor with over 15 years of experience in ballet and contemporary dance.
+        .instructor-profile
+          img(src="/static/image/instructor2.jpg" alt="Instructor 2")
+          h3 Hitesh Choudhary
+          p Hitesh is an accomplished hip-hop and street dance expert with a dynamic teaching approach. He has choreographed for major artists and brings energy and enthusiasm to every class.
+      
+      section.programs
+        h2 Our Programs
+        p We offer a variety of dance programs, including ballet, jazz, contemporary, hip-hop, and more. Whether you're a beginner or an experienced dancer, we have something for you!
+      
+      section.values
+        h2 Our Values and Vision
+        p At Dance Academy, we believe in fostering creativity, discipline, and passion in our students. Our vision is to create a welcoming and inclusive community where everyone can experience the joy of dance.
+      
+      section.testimonials
+        h2 Testimonials
+        p "My child has grown so much as a dancer and as a person since joining Dance Academy!" - John Smith
+        p "The instructors are incredibly talented and supportive." - Haris Khan
+      

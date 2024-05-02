@@ -1,0 +1,62 @@
+extends base.pug
+
+block style
+    style
+      include ../static/style.css
+      include ../static/services.css
+
+block content
+    .container
+      header
+        h1 Our Services
+        p At Dance Academy, we offer a variety of dance programs to cater to all skill levels and interests.
+      
+      section.programs-overview
+        h2 Dance Programs
+        ul
+          li Ballet
+          li Jazz
+          li Hip-Hop
+          li Contemporary
+          li Latin
+          li Ballroom
+      
+      section.program-details
+        h2 Program Details
+        .program
+          h3 Ballet
+          p Ballet is the foundation of all dance forms. We offer classes for all levels, focusing on technique and artistic expression.
+          
+        .program
+          h3 Jazz
+          p Jazz dance is known for its energetic and expressive style. Classes are available for beginners and advanced dancers.
+          
+        .program
+          h3 Hip-Hop
+          p Hip-hop dance is an energetic and expressive style that emerged from the streets of urban communities, characterized by its freestyle movements, intricate footwork, and rhythmic precision.
+
+        .program
+          h3 Contemporary
+          p Contemporary dance is a versatile and expressive dance style that combines elements from various dance genres. It focuses on creativity, fluid movements, and emotional storytelling.
+          
+        .program
+          h3 Latin
+          p Latin dance is a vibrant and energetic dance style that encompasses various genres such as salsa, bachata, and merengue. It is characterized by its rhythmic movements, passionate expressions, and dynamic footwork, making it a popular choice for both social dancing and performances.
+
+        .program
+          h3 Ballroom
+          p Ballroom dance is a formal dance style characterized by elegance and precision, encompassing various partner dances such as waltz, tango, and foxtrot. It is known for its smooth movements, intricate footwork, and close connection between dance partners.
+          
+        
+      
+      section.instructors
+        h2 Our Students
+        .instructor-profile
+          img(src="static/image/ins1.jpg" alt="Instructor 1")
+          h3 Ali Ghoni
+          p Ghoni teaching dancing techniques and also choregraphy at a famous Rhythm and Grace dance academy.
+        .instructor-profile
+          img(src="static/image/ins2.jpg" alt="Instructor 2")
+          h3 Munawar Farooqi
+          p Munawar is working on different collaborative project with defferent instructors and famous artists.
+      
